@@ -8,7 +8,7 @@ from datetime import datetime
 from pathlib import Path
 
 # Path to the CSV file where student records are stored
-students_path = Path("module_assessment_grades 1 (2).csv")
+students_path = Path("student_records.csv")
 
 # Used logging to record actions in the system and saved to a textfile - Used for multi-threading
 def log_student(student_no, student_name, action):
